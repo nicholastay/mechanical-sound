@@ -49,7 +49,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Mechanical_KeyB.ico</ApplicationIcon>
+    <ApplicationIcon>Hardware-Keyboard-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +85,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,6 +117,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -110,6 +131,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -154,7 +176,68 @@
     <None Include="Resources\Mechanical_KeyB.jpeg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Hardware-Keyboard-icon.ico" />
     <Content Include="Mechanical_KeyB.ico" />
+    <None Include="Resources\MXRed10.wav" />
+    <None Include="Resources\MXRed9.wav" />
+    <None Include="Resources\MXRed8.wav" />
+    <None Include="Resources\MXRed7.wav" />
+    <None Include="Resources\MXRed6.wav" />
+    <None Include="Resources\MXRed5.wav" />
+    <None Include="Resources\MXRed4.wav" />
+    <None Include="Resources\MXRed3.wav" />
+    <None Include="Resources\MXRed2.wav" />
+    <None Include="Resources\MXRed.wav" />
+    <None Include="Resources\MXBrown10.wav" />
+    <None Include="Resources\MXBrown9.wav" />
+    <None Include="Resources\MXBrown8.wav" />
+    <None Include="Resources\MXBrown7.wav" />
+    <None Include="Resources\MXBrown6.wav" />
+    <None Include="Resources\MXBrown5.wav" />
+    <None Include="Resources\MXBrown4.wav" />
+    <None Include="Resources\MXBrown3.wav" />
+    <None Include="Resources\MXBrown2.wav" />
+    <None Include="Resources\MXBrown.wav" />
+    <None Include="Resources\MXBlue10.wav" />
+    <None Include="Resources\MXBlue9.wav" />
+    <None Include="Resources\MXBlue8.wav" />
+    <None Include="Resources\MXBlue7.wav" />
+    <None Include="Resources\MXBlue6.wav" />
+    <None Include="Resources\MXBlue5.wav" />
+    <None Include="Resources\MXBlue4.wav" />
+    <None Include="Resources\MXBlue3.wav" />
+    <None Include="Resources\MXBlue2.wav" />
+    <None Include="Resources\MXBlue.wav" />
+    <None Include="Resources\MXBlack10.wav" />
+    <None Include="Resources\MXBlack9.wav" />
+    <None Include="Resources\MXBlack8.wav" />
+    <None Include="Resources\MXBlack7.wav" />
+    <None Include="Resources\MXBlack6.wav" />
+    <None Include="Resources\MXBlack5.wav" />
+    <None Include="Resources\MXBlack4.wav" />
+    <None Include="Resources\MXBlack3.wav" />
+    <None Include="Resources\MXBlack2.wav" />
+    <None Include="Resources\MXBlack.wav" />
+    <None Include="Resources\ALPS10.wav" />
+    <None Include="Resources\ALPS9.wav" />
+    <None Include="Resources\ALPS8.wav" />
+    <None Include="Resources\ALPS7.wav" />
+    <None Include="Resources\ALPS6.wav" />
+    <None Include="Resources\ALPS5.wav" />
+    <None Include="Resources\ALPS4.wav" />
+    <None Include="Resources\ALPS3.wav" />
+    <None Include="Resources\ALPS2.wav" />
+    <None Include="Resources\ALPS.wav" />
+    <None Include="Resources\DuckQuack10.wav" />
+    <None Include="Resources\DuckQuack9.wav" />
+    <None Include="Resources\DuckQuack8.wav" />
+    <None Include="Resources\DuckQuack7.wav" />
+    <None Include="Resources\DuckQuack6.wav" />
+    <None Include="Resources\DuckQuack5.wav" />
+    <None Include="Resources\DuckQuack4.wav" />
+    <None Include="Resources\DuckQuack3.wav" />
+    <None Include="Resources\DuckQuack2.wav" />
+    <None Include="Resources\DuckQuack.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

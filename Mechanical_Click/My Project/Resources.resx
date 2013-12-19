@@ -118,6 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ALPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ALPS9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALPS9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DuckQuack9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DuckQuack9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Mechanical_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mechanical_Click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -147,5 +207,125 @@
   </data>
   <data name="Mechanical_Click9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mechanical_Click9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlack9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlack9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBlue9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBlue9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXBrown9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXBrown9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MXRed9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MXRed9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
