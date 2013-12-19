@@ -17,7 +17,8 @@
     Dim KeyResult As Integer
     Dim voiceActive As Integer
     Dim maxnum As Integer
-    Dim ResourceFilePathPrefix As String
+    'Dim ResourceFilePathPrefix As String
+    Dim resourcePath As String
 
     Private Sub keyClickGen()
         If voiceActive = 0 Then
@@ -38,6 +39,8 @@
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        
+
         If ComboBox1.Items.Count > 0 Then
             ComboBox1.SelectedIndex = 0
         End If
@@ -47,14 +50,14 @@
         voiceActive = 0
         NotifyIcon1.Visible = False
 
-        'From MSDN, access resources with variable name. Thanks so much!
-        If System.Diagnostics.Debugger.IsAttached() Then
-            'In Debugging mode     
-            ResourceFilePathPrefix = System.IO.Path.GetFullPath(Application.StartupPath & "\..\..\resources\")
-        Else
-            'In Published mode     
-            ResourceFilePathPrefix = Application.StartupPath & "\resources\"
-        End If
+        ''From MSDN, access resources with variable name. Thanks so much!
+        'If System.Diagnostics.Debugger.IsAttached() Then
+        '    'In Debugging mode     
+        '    ResourceFilePathPrefix = System.IO.Path.GetFullPath(Application.StartupPath & "\..\..\resources\")
+        'Else
+        '    'In Published mode     
+        '    ResourceFilePathPrefix = Application.StartupPath & "\resources\"
+        'End If
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -102,39 +105,40 @@
 
     Private Sub clickSound(ByVal soundFile As String)
         n = Convert.ToString(rn.Next(1, 20))
+
         Select Case n
             Case 1
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & ".wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile), AudioPlayMode.Background)
 
             Case 2
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "2.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "2"), AudioPlayMode.Background)
 
             Case 3
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "3.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "3"), AudioPlayMode.Background)
 
             Case 4
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "4.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "4"), AudioPlayMode.Background)
 
             Case 5
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "5.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "5"), AudioPlayMode.Background)
 
             Case 6
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "6.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "6"), AudioPlayMode.Background)
 
             Case 7
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "7.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "7"), AudioPlayMode.Background)
 
             Case 8
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "8.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "8"), AudioPlayMode.Background)
 
             Case 9
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "9.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "9"), AudioPlayMode.Background)
 
             Case 10
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & "10.wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile & "10"), AudioPlayMode.Background)
 
             Case Else
-                My.Computer.Audio.Play(ResourceFilePathPrefix & soundFile & ".wav", AudioPlayMode.Background)
+                My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(soundFile), AudioPlayMode.Background)
 
         End Select
     End Sub
@@ -208,5 +212,5 @@
     '    End Select
     'End Sub
 
-   
+
 End Class
