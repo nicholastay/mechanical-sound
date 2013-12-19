@@ -1,7 +1,15 @@
 mechanical-sound
 ================
 
-Make your keyboard sound mechanical! Well, not really. Use your speakers or to be quiet use your headphones and on every keypress it will play an extract from the Razer Black Widow!
+Make your keyboard sound mechanical! Well, not really. Use your speakers or to be quiet use your headphones and on every keypress it will play an extract from selected keyboards.
+
+Keyboard sounds included:
+* Razer Black Widow
+* Cherry MX Blue
+* Cherry MX Red
+* Cherry MX Brown
+* Cherry MX Black
+* APC BSW 070WH - ALPS
 
 Future plans:
 * Fix that audio "fast-type" issue! (My top priority, will require you to have DirectX installed for future releases with this patched)
