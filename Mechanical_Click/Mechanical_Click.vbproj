@@ -143,41 +143,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mechanical_Click.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click3.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click4.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click5.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click6.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click7.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click8.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click9.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mechanical_Click10.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Mechanical_KeyB.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hardware-Keyboard-icon.ico" />
     <Content Include="Mechanical_KeyB.ico" />
+    <None Include="Resources\Mechanical_Click10.wav" />
+    <None Include="Resources\Mechanical_Click9.wav" />
+    <None Include="Resources\Mechanical_Click8.wav" />
+    <None Include="Resources\Mechanical_Click7.wav" />
+    <None Include="Resources\Mechanical_Click6.wav" />
+    <None Include="Resources\Mechanical_Click5.wav" />
+    <None Include="Resources\Mechanical_Click4.wav" />
+    <None Include="Resources\Mechanical_Click3.wav" />
+    <None Include="Resources\Mechanical_Click2.wav" />
+    <None Include="Resources\Mechanical_Click.wav" />
     <None Include="Resources\MXRed10.wav" />
     <None Include="Resources\MXRed9.wav" />
     <None Include="Resources\MXRed8.wav" />

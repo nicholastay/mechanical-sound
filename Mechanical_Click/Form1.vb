@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports Microsoft.VisualBasic
+
+Public Class Form1
     'Mechanical_Click, alpha 2
     'by Nicholas Tay 2013, "n2468txd"
 
@@ -39,15 +41,11 @@
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        
+        voiceActive = GetSetting("Mechanical_Click", "settingsStore", "voiceActive", "0")
+        ComboBox1.SelectedIndex = Convert.ToInt32(voiceActive)
 
-        If ComboBox1.Items.Count > 0 Then
-            ComboBox1.SelectedIndex = 0
-        End If
         Timer1.Enabled = True
         Timer1.Interval = 1
-        ComboBox1.Text = "Razer Black Widow (default)"
-        voiceActive = 0
         NotifyIcon1.Visible = False
 
         ''From MSDN, access resources with variable name. Thanks so much!
@@ -88,18 +86,25 @@
     Private Sub ComboBox1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
         If ComboBox1.Text = "Duck Quack (bonus!)" Then
             voiceActive = 1
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "1")
         ElseIf ComboBox1.Text = "Cherry MX Red" Then
             voiceActive = 2
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "2")
         ElseIf ComboBox1.Text = "Cherry MX Brown" Then
             voiceActive = 3
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "3")
         ElseIf ComboBox1.Text = "Cherry MX Blue" Then
             voiceActive = 4
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "4")
         ElseIf ComboBox1.Text = "Cherry MX Black" Then
             voiceActive = 5
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "5")
         ElseIf ComboBox1.Text = "APC BSW 070WH - ALPS" Then
             voiceActive = 6
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "6")
         Else
             voiceActive = 0
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "0")
         End If
     End Sub
 

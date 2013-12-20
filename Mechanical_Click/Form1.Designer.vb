@@ -76,7 +76,7 @@ Partial Class Form1
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Razer Black Widow (default)", "Cherry MX Brown", "Cherry MX Red", "Cherry MX Blue", "Cherry MX Black", "APC BSW 070WH - ALPS", "Duck Quack (bonus!)"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Razer Black Widow (default)", "Duck Quack (bonus!)", "Cherry MX Red", "Cherry MX Brown", "Cherry MX Blue", "Cherry MX Black", "APC BSW 070WH - ALPS"})
         Me.ComboBox1.Location = New System.Drawing.Point(122, 99)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(195, 21)
@@ -124,7 +124,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Mechanical Keyboard Emulator - Alpha 2 - by n2468txd 2013"
+        Me.Text = "Mechanical Keyboard Emulator - Alpha 2b2 - by n2468txd 2013"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
