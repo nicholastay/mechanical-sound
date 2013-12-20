@@ -11,6 +11,11 @@ Keyboard sounds included:
 * Cherry MX Black
 * APC BSW 070WH - ALPS
 
+How to get yourself a compiled build:
+1. Visit the main github master repo for mechanical-sound
+2. Press releases up the top
+3. Download the latest binary
+
 Future plans:
 * Fix that audio "fast-type" issue! (My top priority, will require you to have DirectX installed for future releases with this patched)
 * Make Temporarily Disable work (if you compile yourself with it enabled, it works, but the countdown is glitched, will be fixed in due course)
