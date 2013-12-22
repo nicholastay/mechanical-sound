@@ -1,7 +1,7 @@
 mechanical-sound
 ================
 
-Make your keyboard sound mechanical! Well, not really. Use your speakers or to be quiet use your headphones and on every keypress it will play an extract from selected keyboards.
+Make your keyboard sound mechanical! Well, not really. Use your speakers or to be quiet use your headphones and on every keypress it will play an extract from selected keyboards. (VB project)
 
 Keyboard sounds included:
 * Razer Black Widow
@@ -10,6 +10,7 @@ Keyboard sounds included:
 * Cherry MX Brown
 * Cherry MX Black
 * APC BSW 070WH - ALPS
+* A crappy membrane keyboard... lol.
 
 How to get yourself a compiled build:
 1. Visit the main github master repo for mechanical-sound
@@ -18,7 +19,5 @@ How to get yourself a compiled build:
 
 Future plans:
 * Fix that audio "fast-type" issue! (My top priority, will require you to have DirectX installed for future releases with this patched)
-* Make Temporarily Disable work (if you compile yourself with it enabled, it works, but the countdown is glitched, will be fixed in due course)
 * Add more sounds and maybe not necessarily mechanical keyboards? (You can suggest! Pop an email to nicholas@synthe.tk)
 * Custom sounds? (although unlikely for a long time)
-* Strange bug, because doesn't happen on my desktop, only on laptop, have to look into it: //Fix that bug where the sounds keep repeating when you hold down - we don't want it to repeat when you hold down W key in-game! (another top priority, will probably be easier to fix than above and less requirements)// 
