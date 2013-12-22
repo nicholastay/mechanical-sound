@@ -148,6 +148,16 @@
   <ItemGroup>
     <Content Include="Hardware-Keyboard-icon.ico" />
     <Content Include="Mechanical_KeyB.ico" />
+    <None Include="Resources\Membrane10.wav" />
+    <None Include="Resources\Membrane9.wav" />
+    <None Include="Resources\Membrane8.wav" />
+    <None Include="Resources\Membrane7.wav" />
+    <None Include="Resources\Membrane6.wav" />
+    <None Include="Resources\Membrane5.wav" />
+    <None Include="Resources\Membrane4.wav" />
+    <None Include="Resources\Membrane3.wav" />
+    <None Include="Resources\Membrane2.wav" />
+    <None Include="Resources\Membrane.wav" />
     <None Include="Resources\Mechanical_Click10.wav" />
     <None Include="Resources\Mechanical_Click9.wav" />
     <None Include="Resources\Mechanical_Click8.wav" />

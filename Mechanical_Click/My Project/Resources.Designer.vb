@@ -333,6 +333,96 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
+        Friend ReadOnly Property Membrane() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane10() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane10", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane2() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane3() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane4() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane5() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane5", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane6() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane6", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane7() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane8() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane8", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Membrane9() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Membrane9", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
         Friend ReadOnly Property MXBlack() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("MXBlack", resourceCulture)

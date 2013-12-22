@@ -12,6 +12,7 @@ Public Class Form1
     '4: Cherry MX Blue
     '5: Cherry MX Black
     '6: ALPS
+    '7: Membrane GHEEEYYYYYYYYYYYYYYYY
 
     Dim rn As New Random
     Dim n As Integer
@@ -19,8 +20,8 @@ Public Class Form1
     Dim KeyResult As Integer
     Dim voiceActive As Integer
     Dim maxnum As Integer
-    'Dim ResourceFilePathPrefix As String
     Dim resourcePath As String
+    Dim alreadyPressed As Boolean
 
     Private Sub keyClickGen()
         If voiceActive = 0 Then
@@ -35,8 +36,10 @@ Public Class Form1
             clickSound("MXBlue")
         ElseIf voiceActive = 5 Then
             clickSound("MXBlack")
-        Else
+        ElseIf voiceActive = 6 Then
             clickSound("ALPS")
+        Else
+            clickSound("Membrane")
         End If
     End Sub
 
@@ -47,28 +50,51 @@ Public Class Form1
         Timer1.Enabled = True
         Timer1.Interval = 1
         NotifyIcon1.Visible = False
+        alreadyPressed = False
 
-        ''From MSDN, access resources with variable name. Thanks so much!
-        'If System.Diagnostics.Debugger.IsAttached() Then
-        '    'In Debugging mode     
-        '    ResourceFilePathPrefix = System.IO.Path.GetFullPath(Application.StartupPath & "\..\..\resources\")
-        'Else
-        '    'In Published mode     
-        '    ResourceFilePathPrefix = Application.StartupPath & "\resources\"
-        'End If
+        'check prev instance - thanks freevbcode
+        CheckForExistingInstance()
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        ' Old logic code (there really is no logic at all but the for loop haha)
+        'Dim i As Byte
+        'For i = 1 To 254
+        '    KeyResult = GetAsyncKeyState(i)
+        '    If KeyResult = -32767 Then
+        '        If i < 255 And i > 4 Then
+        '            keyClickGen()
+        '        Else
+        '        End If
+        '    End If
+        'Next
+
+        Dim previ As Integer
         Dim i As Byte
-        For i = 1 To 254
-            KeyResult = GetAsyncKeyState(i)
-            If KeyResult = -32767 Then
-                If i < 255 And i > 4 Then
-                    keyClickGen()
-                Else
-                End If
+        For i = 5 To 254
+
+            If GetAsyncKeyState(i) = -32767 Then
+                keyClickGen()
+                alreadyPressed = True
+                previ = i
+                Timer1.Enabled = False
+                ' Thanks SO SO SO much to my dad for this logic below!! :D
+                ' stopped the repeated click problem
+                Do
+                    Dim y As Byte
+                    For y = 5 To 254
+                        If GetAsyncKeyState(y) = -32767 And (Not y = previ) Then
+                            keyClickGen()
+                            Timer1.Enabled = True
+                        End If
+                    Next
+                Loop Until Not GetAsyncKeyState(previ) = -32767
+                Timer1.Enabled = True
             End If
+
         Next
+
+
     End Sub
 
     Private Sub NotifyIcon1_MouseDoubleClick(ByVal sender As System.Object, _
@@ -102,6 +128,9 @@ Public Class Form1
         ElseIf ComboBox1.Text = "APC BSW 070WH - ALPS" Then
             voiceActive = 6
             SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "6")
+        ElseIf ComboBox1.Text = "Membrane Keyboard (whyy?)" Then
+            voiceActive = 6
+            SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "7")
         Else
             voiceActive = 0
             SaveSetting("Mechanical_Click", "settingsStore", "voiceActive", "0")
@@ -153,13 +182,27 @@ Public Class Form1
         Form2.Show()
     End Sub
 
-    'Code now ALL redundant as MSDN showed how to access resource file path
-    'which leads us to be able to make a generic function!
-    'With so many keyboards, yes, we have to pretty much do that or...
+    'From FreeVBCode - check for prev instance
+    Public Sub CheckForExistingInstance()
+        'Get number of processes of you program
+        If Process.GetProcessesByName _
+          (Process.GetCurrentProcess.ProcessName).Length > 1 Then
+
+            MessageBox.Show _
+             ("Another Instance of this process is already running. If you are sure it is closed (it is not making click noises but somehow still running, go to task manager (CTRL-ALT-DEL) and then processes and then choose Mechanical_Click.exe and click Kill Process. Then run this program again. Enjoy!", _
+                 "Multiple Instances Forbidden", _
+                  MessageBoxButtons.OK, _
+                 MessageBoxIcon.Exclamation)
+            Application.Exit()
+        End If
+    End Sub
+
+    'Code now all redundant as I figured out a way to access resources with resourcemanager.getobject
     '
     'Private Sub razerBlackWidow()
     '    n = Convert.ToString(rn.Next(1, 20))
     '    Select Case n
+    '-- screw msdn the below resourcefilepathprefix way doesnt work -_-
     '        Case 1
     '            My.Computer.Audio.Play(ResourceFilePathPrefix & "Mechanical_Click.wav", AudioPlayMode.Background)
 

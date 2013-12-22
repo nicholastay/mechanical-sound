@@ -178,6 +178,66 @@
   <data name="DuckQuack9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DuckQuack9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Mechanical_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechanical_Click9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical_Click9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Membrane9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membrane9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="MXBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MXBlack.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -297,35 +357,5 @@
   </data>
   <data name="MXRed9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MXRed9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mechanical_Click9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical_Click9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
