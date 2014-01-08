@@ -32,10 +32,12 @@ Partial Class Form1
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TempDisableTag = New System.Windows.Forms.Label()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Timer1
         '
+        Me.Timer1.Interval = 1
         '
         'Label1
         '
@@ -98,6 +100,9 @@ Partial Class Form1
         Me.TempDisableTag.Size = New System.Drawing.Size(0, 13)
         Me.TempDisableTag.TabIndex = 5
         '
+        'Timer2
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -112,7 +117,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Mechanical Keyboard Emulator - Alpha 3 - by n2468txd 2013"
+        Me.Text = "Mechanical Keyboard Emulator - Alpha 5 - by n2468txd 2014"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -125,5 +130,6 @@ Partial Class Form1
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents TempDisableTag As System.Windows.Forms.Label
+    Friend WithEvents Timer2 As System.Windows.Forms.Timer
 
 End Class
