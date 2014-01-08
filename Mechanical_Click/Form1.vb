@@ -61,36 +61,68 @@ Public Class Form1
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        'Dim i As Byte
+        'For i = 1 To 254
+        '    KeyResult = GetAsyncKeyState(i)
+        '    If KeyResult = -32767 Then
+        '        If i < 255 And i > 4 And alreadyPressed = False Then
+        '            keyClickGen()
+        '            alreadyPressed = True
+        '            previ = i
+        '            Timer1.Enabled = False
+        '        Else
+        '        End If
+        '    End If
+        'Next
 
         Dim i As Byte
-        For i = 1 To 254
-            KeyResult = GetAsyncKeyState(i)
-            If KeyResult = -32767 Then
-                If i < 255 And i > 4 And alreadyPressed = False Then
+        For i = 5 To 254
+            If GetAsyncKeyState(i) = -32767 Then
+                If i < 255 And alreadyPressed = False Then
                     keyClickGen()
                     alreadyPressed = True
                     previ = i
-                    Timer1.Enabled = False
                 Else
                 End If
             End If
         Next
-
     End Sub
 
     Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
-        Dim i As Byte
-        For i = 1 To 254
-            KeyResult = GetAsyncKeyState(i)
-            If KeyResult = -32767 Then
-                If i < 255 And i > 4 And (Not i = previ) Then
-                    alreadyPressed = False
-                    Timer1.Enabled = True
-                    keyClickGen()
-                Else
+        If alreadyPressed = True Then
+            Dim i As Byte
+            For i = 5 To 254
+                If GetAsyncKeyState(i) = -32767 Then
+                    If i < 255 And (Not i = previ) Then
+                        keyClickGen()
+                        alreadyPressed = False
+                    Else
+                    End If
                 End If
-            End If
-        Next
+
+                Static nVal As Boolean
+                If GetAsyncKeyState(previ) = 0 Then
+                    If nVal Then
+                        alreadyPressed = False
+                        previ = 0
+                    End If
+                End If
+                nVal = CBool(GetAsyncKeyState(previ))
+            Next
+        End If
+
+        'Dim i As Byte
+        'For i = 1 To 254
+        '    KeyResult = GetAsyncKeyState(i)
+        '    If KeyResult = -32767 Then
+        '        If i < 255 And i > 4 And (Not i = previ) Then
+        '            alreadyPressed = False
+        '            Timer1.Enabled = True
+        '            keyClickGen()
+        '        Else
+        '        End If
+        '    End If
+        'Next
     End Sub
 
     Private Sub NotifyIcon1_MouseDoubleClick(ByVal sender As System.Object, _
