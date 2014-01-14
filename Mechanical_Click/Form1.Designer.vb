@@ -33,6 +33,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TempDisableTag = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Timer1
@@ -103,11 +104,21 @@ Partial Class Form1
         'Timer2
         '
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(442, 31)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(60, 21)
+        Me.Button3.TabIndex = 6
+        Me.Button3.Text = "Debug"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(537, 84)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TempDisableTag)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ComboBox1)
@@ -117,7 +128,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Mechanical Keyboard Emulator - Alpha 5 - by n2468txd 2014"
+        Me.Text = "Mechanical Keyboard Emulator - Alpha 5 build 3 - by n2468txd 2014"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -131,5 +142,6 @@ Partial Class Form1
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents TempDisableTag As System.Windows.Forms.Label
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 
 End Class

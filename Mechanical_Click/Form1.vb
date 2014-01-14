@@ -17,31 +17,30 @@ Public Class Form1
     Dim rn As New Random
     Dim n As Integer
     Public Declare Function GetAsyncKeyState Lib "user32.dll" (ByVal key As Integer) As Integer
-    Dim KeyResult As Integer
     Dim voiceActive As Integer
-    Dim maxnum As Integer
     Dim resourcePath As String
     Dim alreadyPressed As Boolean
     Dim previ As Integer
+    Dim specialKey As Boolean
 
     Private Sub keyClickGen()
-        If voiceActive = 0 Then
-            clickSound("Mechanical_Click")
-        ElseIf voiceActive = 1 Then
-            clickSound("DuckQuack")
-        ElseIf voiceActive = 2 Then
-            clickSound("MXRed")
-        ElseIf voiceActive = 3 Then
-            clickSound("MXBrown")
-        ElseIf voiceActive = 4 Then
-            clickSound("MXBlue")
-        ElseIf voiceActive = 5 Then
-            clickSound("MXBlack")
-        ElseIf voiceActive = 6 Then
-            clickSound("ALPS")
-        Else
-            clickSound("Membrane")
-        End If
+            If voiceActive = 0 Then
+                clickSound("Mechanical_Click")
+            ElseIf voiceActive = 1 Then
+                clickSound("DuckQuack")
+            ElseIf voiceActive = 2 Then
+                clickSound("MXRed")
+            ElseIf voiceActive = 3 Then
+                clickSound("MXBrown")
+            ElseIf voiceActive = 4 Then
+                clickSound("MXBlue")
+            ElseIf voiceActive = 5 Then
+                clickSound("MXBlack")
+            ElseIf voiceActive = 6 Then
+                clickSound("ALPS")
+            Else
+                clickSound("Membrane")
+            End If
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -50,38 +49,32 @@ Public Class Form1
 
         Timer1.Enabled = True
         Timer2.Enabled = True
-        Timer2.Interval = 1
-        Timer1.Interval = 1
+        Timer2.Interval = 100
+        Timer1.Interval = 100
         NotifyIcon1.Visible = False
         alreadyPressed = False
-
+        specialKey = False
 
         'check prev instance - thanks freevbcode
         CheckForExistingInstance()
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-        'Dim i As Byte
-        'For i = 1 To 254
-        '    KeyResult = GetAsyncKeyState(i)
-        '    If KeyResult = -32767 Then
-        '        If i < 255 And i > 4 And alreadyPressed = False Then
-        '            keyClickGen()
-        '            alreadyPressed = True
-        '            previ = i
-        '            Timer1.Enabled = False
-        '        Else
-        '        End If
-        '    End If
-        'Next
 
         Dim i As Byte
         For i = 5 To 254
             If GetAsyncKeyState(i) = -32767 Then
                 If i < 255 And alreadyPressed = False Then
-                    keyClickGen()
+                    Form4.Label1.Text = "KeyPressed: " + i.ToString
+                    If i > 15 And i < 19 Then
+                        specialKey = True
+                    Else
+                        specialKey = False
+                        keyClickGen()
+                    End If
                     alreadyPressed = True
                     previ = i
+                    Timer1.Enabled = False
                 Else
                 End If
             End If
@@ -89,40 +82,42 @@ Public Class Form1
     End Sub
 
     Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
-        If alreadyPressed = True Then
-            Dim i As Byte
-            For i = 5 To 254
-                If GetAsyncKeyState(i) = -32767 Then
-                    If i < 255 And (Not i = previ) Then
-                        keyClickGen()
-                        alreadyPressed = False
-                    Else
-                    End If
-                End If
 
-                Static nVal As Boolean
-                If GetAsyncKeyState(previ) = 0 Then
-                    If nVal Then
-                        alreadyPressed = False
-                        previ = 0
-                    End If
-                End If
-                nVal = CBool(GetAsyncKeyState(previ))
-            Next
-        End If
+            If alreadyPressed = True Then
 
-        'Dim i As Byte
-        'For i = 1 To 254
-        '    KeyResult = GetAsyncKeyState(i)
-        '    If KeyResult = -32767 Then
-        '        If i < 255 And i > 4 And (Not i = previ) Then
-        '            alreadyPressed = False
-        '            Timer1.Enabled = True
-        '            keyClickGen()
-        '        Else
-        '        End If
-        '    End If
-        'Next
+                Dim i As Byte
+                For i = 5 To 254
+                    If GetAsyncKeyState(i) = -32767 Then
+                        If i < 255 And (Not i = previ) Then
+                            keyClickGen()
+                            alreadyPressed = False
+                            Timer1.Enabled = True
+                        Form4.Label1.Text = "KeyPressed: " + i.ToString
+                        If i > 15 And i < 19 Then
+                            specialKey = True
+                            alreadyPressed = False
+                        Else
+                            specialKey = False
+                            keyClickGen()
+                        End If
+                        Else
+                        End If
+                    End If
+
+                    'keyup code
+                    Static nVal As Boolean
+                    If GetAsyncKeyState(previ) = 0 Then
+                        If nVal Then
+                            alreadyPressed = False
+                            previ = 0
+                            Timer1.Enabled = True
+                        End If
+                    End If
+                    nVal = CBool(GetAsyncKeyState(previ))
+
+                Next
+            End If
+
     End Sub
 
     Private Sub NotifyIcon1_MouseDoubleClick(ByVal sender As System.Object, _
@@ -223,5 +218,9 @@ Public Class Form1
                  MessageBoxIcon.Exclamation)
             Application.Exit()
         End If
+    End Sub
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        Form4.Show()
     End Sub
 End Class
